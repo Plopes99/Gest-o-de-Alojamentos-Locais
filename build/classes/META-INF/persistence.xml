@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="1Projeto2PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>DAL.Animal</class>
+    <class>DAL.Tipofuncionario</class>
+    <class>DAL.Funcionario</class>
+    <class>DAL.Exame</class>
+    <class>DAL.Linhavendaartigo</class>
+    <class>DAL.Venda</class>
+    <class>DAL.Bula</class>
+    <class>DAL.Cliente</class>
+    <class>DAL.Linhavendaexame</class>
+    <class>DAL.Artigo</class>
+    <class>DAL.Tipopagamento</class>
+    <class>DAL.Especialidadefuncionario</class>
+    <class>DAL.Medicamento</class>
+    <class>DAL.Linhavendamedicamento</class>
+    <class>DAL.Consulta</class>
+    <class>DAL.Linhavendaconsulta</class>
+    <class>DAL.Receitamedica</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:oci8:@localhost:1521:XE"/>
+      <property name="javax.persistence.jdbc.user" value="projeto2"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.driver.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="alexandra19"/>
+    </properties>
+  </persistence-unit>
+</persistence>
